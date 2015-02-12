@@ -1,0 +1,117 @@
+#interactive introduction
+
+players.@human
+players.@computer
+
+puts 'what is your name?'
+name=gets
+puts 'hi ' +name+ 'let\'s play a game!'
+puts 'choose "x" or "0" to play'
+name2=gets
+
+#@human chooses 'x' or '0'
+
+@signs = ['x', '0']
+
+if name2=x then @computer x=false
+if name2=0 then @computer 0=false
+    
+@signs.each do [signs]
+    
+#Grid of 9 boxes
+    
+    array=grid
+    
+    [[a1], [a2], [a3]]
+    [[b1], [b2], [b3]]
+    [[c1], [c2], [c3]]
+    
+    array=x wins
+    
+     [[a1], [a2], [a3]]
+     [[a1], [b2], [c3]]
+     [[a1], [b1], [c1]]
+     [[a2], [b2], [c2]]
+     [[a3], [b3], [c3]]
+     [[b1], [b2], [b3]]
+     [[c1], [c2], [c3]]
+     [[c1], [b2], [a3]]
+     
+    array=0 wins
+     
+     [[a1], [a2], [a3]]
+     [[a1], [b2], [c3]]
+     [[a1], [b1], [c1]]
+     [[a2], [b2], [c2]]
+     [[a3], [b3], [c3]]
+     [[b1], [b2], [b3]]
+     [[c1], [c2], [c3]]
+     [[c1], [b2], [a3]]
+     
+     if none = draw
+    
+    players.Grid @human choose x
+    
+    If @human input x=a1 then 0=false
+    If @human input x=a2 then 0=false
+    If @human input x=a3 then 0=false
+    If @human input x=b1 then 0=false
+    If @human input x=b2 then 0=false
+    If @human input x=b3 then 0=false
+    If @human input x=c1 then 0=false
+    If @human input x=c2 then 0=false
+    If @human input x=c3 then 0=false
+    
+    players.Grid @human choose 0
+    
+    If @human input 0=a1 then x=false
+    If @human input 0=a2 then x=false
+    If @human input 0=a3 then x=false
+    If @human input 0=b1 then x=false
+    If @human input 0=b2 then x=false
+    If @human input 0=b3 then x=false
+    If @human input 0=c1 then x=false
+    If @human input 0=c2 then x=false
+    If @human input 0=c3 then x=false
+    
+    players.Grid @computer choose x
+    
+    If @computer input x=a1 then 0=false
+    If @computer input x=a2 then 0=false
+    If @computer input x=a3 then 0=false
+    If @computer input x=b1 then 0=false
+    If @computer input x=b2 then 0=false
+    If @computer input x=b3 then 0=false
+    If @computer input x=c1 then 0=false
+    If @computer input x=c2 then 0=false
+    If @computer input x=c3 then 0=false
+    
+    players.Grid @computer choose 0
+    
+    If @computer input 0=a1 then x=false
+    If @computer input 0=a2 then x=false
+    If @computer input 0=a3 then x=false
+    If @computer input 0=b1 then x=false
+    If @computer input 0=b2 then x=false
+    If @computer input 0=b3 then x=false
+    If @computer input 0=c1 then x=false
+    If @computer input 0=c2 then x=false
+    If @computer input 0=c3 then x=false
+    
+    #computer moves
+            
+    if(@human.move=names
+       
+       [[a1], [a2], [a3]]
+       [[b1], [b2], [b3]]
+       [[c1], [c2], [c3]])
+           
+    @computer .do "random"
+        
+        def @human=x wins game over
+        def @computer= x wins game over
+        def @human=0 wins game over
+        def @computer=0 wins game over
+       
+    
+end
