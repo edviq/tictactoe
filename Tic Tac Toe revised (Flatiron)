@@ -1,0 +1,398 @@
+#defining array, players and grid
+
+grid = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] 
+
+playerX = 'X'
+
+player0 = '0'
+
+
+def printGrid grid
+
+print (grid[0][0]), " ",(grid[0][1]), " ", (grid[0][2])
+puts "\n"
+print (grid[1][0]), " ",(grid[1][1]), " ", (grid[1][2])
+puts "\n"
+print (grid[2][0]), " ",(grid[2][1]), " ", (grid[2][2])
+puts "\n"
+
+end
+
+#players intro
+
+puts 'Player X, Enter your name'
+player1 = gets.chomp.upcase
+
+puts 'Player 0, Enter your name'
+player2 = gets.chomp.upcase
+
+print 'Game '+ player1 + ' vs ' + player2
+puts "\n"
+
+printGrid(grid)
+
+#inputs from players where X and 0 are converted to integer.
+
+puts "Player " +player1+ " please make your move by entering the number on the grid"
+    input = gets.chomp
+    move = input.to_i
+
+
+if move==1 then grid[0][0]=playerX
+end
+
+if move==2 then grid[0][1]=playerX
+end
+
+if move==3 then grid[0][2]=playerX
+end
+
+if move==4 then grid[1][0]=playerX
+end
+
+if move==5 then grid[1][1]=playerX
+end
+
+if move==6 then grid[1][2]=playerX
+end
+
+if move==7 then grid[2][0]=playerX
+end
+
+if move==8 then grid[2][1]=playerX
+end
+
+if move==9 then grid[2][2]=playerX
+
+end
+
+printGrid(grid)
+
+puts "Player " +player2+ " please make your move by entering the number on the grid"
+    input = gets.chomp
+    move = input.to_i
+    
+if move==1 then grid[0][0]=player0
+end
+
+if move==2 then grid[0][1]=player0
+end
+
+if move==3 then grid[0][2]=player0
+end
+
+if move==4 then grid[1][0]=player0
+end
+
+if move==5 then grid[1][1]=player0
+end
+
+if move==6 then grid[1][2]=player0
+end
+
+if move==7 then grid[2][0]=player0
+end
+
+if move==8 then grid[2][1]=player0
+end
+
+if move==9 then grid[2][2]=player0
+
+end
+
+printGrid(grid)
+
+  puts "" +player1+ " your move!"
+    input = gets.chomp
+    move = input.to_i
+
+
+if move==1 then grid[0][0]=playerX
+end
+
+if move==2 then grid[0][1]=playerX
+end
+
+if move==3 then grid[0][2]=playerX
+end
+
+if move==4 then grid[1][0]=playerX
+end
+
+if move==5 then grid[1][1]=playerX
+end
+
+if move==6 then grid[1][2]=playerX
+end
+
+if move==7 then grid[2][0]=playerX
+end
+
+if move==8 then grid[2][1]=playerX
+end
+
+if move==9 then grid[2][2]=playerX
+
+end
+
+printGrid(grid)
+
+puts "" +player2+ " your move!"
+    input = gets.chomp
+    move = input.to_i
+
+if move==1 then grid[0][0]=player0
+end
+
+if move==2 then grid[0][1]=player0
+end
+
+if move==3 then grid[0][2]=player0
+end
+
+if move==4 then grid[1][0]=player0
+end
+
+if move==5 then grid[1][1]=player0
+end
+
+if move==6 then grid[1][2]=player0
+end
+
+if move==7 then grid[2][0]=player0
+end
+
+if move==8 then grid[2][1]=player0
+end
+
+if move==9 then grid[2][2]=player0
+
+	end
+
+printGrid(grid)
+
+  puts "" +player1+ " your move!"
+    input = gets.chomp
+    move = input.to_i
+
+
+if move==1 then grid[0][0]=playerX
+end
+
+if move==2 then grid[0][1]=playerX
+end
+
+if move==3 then grid[0][2]=playerX
+end
+
+if move==4 then grid[1][0]=playerX
+end
+
+if move==5 then grid[1][1]=playerX
+end
+
+if move==6 then grid[1][2]=playerX
+end
+
+if move==7 then grid[2][0]=playerX
+end
+
+if move==8 then grid[2][1]=playerX
+end
+
+if move==9 then grid[2][2]=playerX
+
+	end
+
+printGrid(grid)
+
+puts "" +player2+ " your move!"
+    input = gets.chomp
+    move = input.to_i
+
+if move==1 then grid[0][0]=player0
+end
+
+if move==2 then grid[0][1]=player0
+end
+
+if move==3 then grid[0][2]=player0
+end
+
+if move==4 then grid[1][0]=player0
+end
+
+if move==5 then grid[1][1]=player0
+end
+
+if move==6 then grid[1][2]=player0
+end
+
+if move==7 then grid[2][0]=player0
+end
+
+if move==8 then grid[2][1]=player0
+end
+
+if move==9 then grid[2][2]=player0
+
+	end
+
+printGrid(grid)
+
+  puts "" +player1+ " your move!"
+    input = gets.chomp
+    move = input.to_i
+
+
+if move==1 then grid[0][0]=playerX
+end
+
+if move==2 then grid[0][1]=playerX
+end
+
+if move==3 then grid[0][2]=playerX
+end
+
+if move==4 then grid[1][0]=playerX
+end
+
+if move==5 then grid[1][1]=playerX
+end
+
+if move==6 then grid[1][2]=playerX
+end
+
+if move==7 then grid[2][0]=playerX
+end
+
+if move==8 then grid[2][1]=playerX
+end
+
+if move==9 then grid[2][2]=playerX
+
+	end
+
+printGrid(grid)
+
+puts "" +player2+ " your move!"
+    input = gets.chomp
+    move = input.to_i
+
+if move==1 then grid[0][0]=player0
+end
+
+if move==2 then grid[0][1]=player0
+end
+
+if move==3 then grid[0][2]=player0
+end
+
+if move==4 then grid[1][0]=player0
+end
+
+if move==5 then grid[1][1]=player0
+end
+
+if move==6 then grid[1][2]=player0
+end
+
+if move==7 then grid[2][0]=player0
+end
+
+if move==8 then grid[2][1]=player0
+end
+
+if move==9 then grid[2][2]=player0
+
+	end
+
+printGrid(grid)
+
+  puts "" +player1+ " your move!"
+    input = gets.chomp
+    move = input.to_i
+
+if move==1 then grid[0][0]=playerX
+end
+
+if move==2 then grid[0][1]=playerX
+end
+
+if move==3 then grid[0][2]=playerX
+end
+
+if move==4 then grid[1][0]=playerX
+end
+
+if move==5 then grid[1][1]=playerX
+end
+
+if move==6 then grid[1][2]=playerX
+end
+
+if move==7 then grid[2][0]=playerX
+end
+
+if move==8 then grid[2][1]=playerX
+end
+
+if move==9 then grid[2][2]=playerX
+
+end
+
+printGrid(grid)
+
+#defining win moves
+
+def winMove grid
+
+	if grid[[0][0], [0][1], [0][2]] == 'playerX'
+        return 'X'
+    end 
+    if grid[[2][0], [2][1], [2][2]] == 'playerX'
+        return 'X'
+    end 
+    if grid[[0][0], [1][0], [2][0]] == 'playerX'
+        return 'X'
+    end
+    if grid[[0][1], [1][1], [2][1]] == 'playerX'
+        return 'X'
+    end
+    if grid[[0][2], [1][2], [2][2]] == 'playerX'
+        return 'X'
+    end
+    if grid[[0][0], [1][1], [2][2]] == 'playerX'
+        return 'X'
+    end
+    if grid[[2][0], [1][1], [0][2]] == 'playerX'
+        return 'X'
+    end
+
+
+    if grid[[0][0], [0][1], [0][2]] == 'player0'
+        return '0'
+    end 
+    if grid[[2][0], [2][1], [2][2]] == 'player0'
+        return '0'
+    end 
+    if grid[[0][0], [1][0], [2][0]] == 'player0'
+        return '0'
+    end
+    if grid[[0][1], [1][1], [2][1]] == 'player0'
+        return '0'
+    end
+    if grid[[0][2], [1][2], [2][2]] == 'player0'
+        return '0'
+    end
+    if grid[[0][0], [1][1], [2][2]] == 'player0'
+        return '0'
+    end
+    if grid[[2][0], [1][1], [0][2]] == 'player0'
+        return '0'
+    end
+end
+
+puts "\n"
+puts "It's a draw! Game Over!"
+puts "\n"
